@@ -6,12 +6,22 @@
         xmlns:local="clr-namespace:udemyTut"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <StackPanel VerticalAlignment="Center" Margin="10">
-            <Label Content="Result"></Label>
-            <TextBox Text="0" Margin="0,0,0,10"/>
-            <TextBox Text="0"/>
-            <Button Content="Calculate" Background="DodgerBlue" Foreground="White"/>
-        </StackPanel>
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
     </Grid>
 </Window>
